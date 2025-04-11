@@ -8,7 +8,8 @@ let player;
 const mediaPlaying = new Setting('mediaPlaying', {
 	name: 'Media Playing',
 	type: 'boolean',
-	defaultValue: false,
+	// changed to true to auto play music
+	defaultValue: true,
 	sticky: true,
 });
 
